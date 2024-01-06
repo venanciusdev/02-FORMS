@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SELETIVA | Esports</title>
+
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Inscrição de Jogador</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome" class="labelInput">Nome completo</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="labelInput">Email</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                    <label for="telefone" class="labelInput">Telefone</label>
+                </div>
+                <br><br>
+                <label for="data_nascimento"><b>Data de Nascimento:</b></label>
+                <input type="date" name="data_nascimento" id="data_nascimento" required>
+                <br><br>
+                <p>Vaga Pretendida:</p>
+                <input type="radio" id="proplayer" name="profissao" value="proplayer" required>
+                <label for="proplayer">Pro Player</label>
+                <br>
+                <input type="radio" id="staff" name="profissao" value="staff" required>
+                <label for="staff">Coaching Staff</label>
+                <br>
+                <input type="radio" id="outro" name="profissao" value="outro" required>
+                <label for="outro">Outros</label>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="jogo" id="jogo" class="inputUser" required>
+                    <label for="jogo" class="labelInput">Jogo</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="plataforma" id="plataforma" class="inputUser" required>
+                    <label for="plataforma" class="labelInput">Plataforma</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="discord" id="discord" class="inputUser" required>
+                    <label for="discord" class="labelInput">ID Discord</label>
+                </div>
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
